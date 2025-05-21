@@ -143,7 +143,7 @@ class Admin {
 		ctx.body = {
 			code: 0,
 			data:{
-				msg : "买入成功!"
+				msg : "成功!"
 			}
 		}
 	}
