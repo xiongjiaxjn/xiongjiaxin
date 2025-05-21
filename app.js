@@ -50,7 +50,7 @@ app.use(cors({
   origin: 'http://' + domain + ':8000'
 }))
 
-// 生成登录验证码token
+
 app.use(async (ctx, next) => {
 
   if(!(ctx.cookies.get('FFSM') && ctx.cookies.get('username')) && ctx.path === '/gen_code'){
